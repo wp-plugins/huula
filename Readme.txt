@@ -11,11 +11,16 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Huula, create guides for your site!
 
+Complexity is one thing we all hate. New visitors gets confused by your site and they quickly drop. Customers gets confused by your site and they complain and churn. But we all understand that some complexities are inevitable. Sometimes it's because of your business model and sometimes it's because of the complexity of the problem you are trying to solve! Hmm, what do we do now?
+
+Don't worry, here it is, Huula, it helps solving your complexity problems and educate your users. That's what it's made for and what it's good at! No more phone calls in your sleeping hours, no more angry users, and in return you get boosted sales, profit and growth!
+
 = Features =
 
-* Customizable web app guidance just works for whatever themes you have.
+* Customizable web guidance just works for whatever themes you have.
 * Graphical guidance editor allows you to create guides for your site in minutes.
-* Video guidance, rich text guidance in breeze.
+* Video guidance, rich text guidance, etc.
+* ... Check our [website](http://www.mirikle.com) for more.
 
 
 == Changelog ==
