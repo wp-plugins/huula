@@ -54,7 +54,12 @@
 <div id="huula">
 
   <div class="wrap">
-    <h2>Hu2la WordPress Plugin</h2>
+    <h2>
+      <?php
+        echo '<img src="' . plugins_url('huula/assets/icon.png') . '"></img>'
+      ?>
+    </h2>
+    <br/>
     <form method="post" action="options.php">
       <?php settings_fields('huula'); ?>
       <div class="huula-instructions">
@@ -66,10 +71,36 @@
       <?php submit_button(); ?>
     </form>
 
-    <div class="row">
-      <div class="row-inner">
-        <iframe src="http://www.mirikle.com/wordpress-manual?embed=true" class="wrapper-iframe"></iframe>
+    <div>
+      <div id="https-content">
+        <div class="huula-instructions">
+          You can access the following document directly
+          <a href="http://www.mirikle.com/wordpress-manual" target="_blank">Here!</a>
+        </div>
+        <br/>
+        <div>
+          <?php
+            echo '<img src="' . plugins_url('huula/assets/wordpress-manual.jpg') . '"></img>'
+          ?>
+        </div>
       </div>
+
+      <div id="http-content">
+        <br/>
+        <div class="row">
+          <div class="row-inner">
+            <iframe src="http://www.mirikle.com/wordpress-manual?embed=true" class="wrapper-iframe"></iframe>
+          </div>
+        </div>
+      </div>
+
+      <script>
+        if(location.protocol == "http:"){
+          document.getElementById('https-content').style.display = 'none';
+        }else{
+          document.getElementById('http-content').style.display = 'none';
+        }
+      </script>
     </div>
 
   </div>

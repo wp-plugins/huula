@@ -52,8 +52,8 @@ class WP_Plugin_HuuLa {
 
   public function sanitize_site_id($value)
   {
-    $value = preg_replace('/[^0-9a-f]/', '', strtolower($value));
-
+    // No need to sanitize
+    // $value = preg_replace('/[^0-9a-f]/', '', strtolower($value));
     return $value;
   }
 
@@ -85,7 +85,7 @@ EOF;
   public function admin_menu()
   {
     add_options_page('HuuLa', 'HuuLa', 'manage_options', 'huula', array(&$this, 'plugin_settings_page'));
-    add_menu_page('HuuLa', 'HuuLa', 'manage_options', 'options-general.php?page=huula', '', plugins_url('huula/images/icon.png'));
+    add_menu_page('HuuLa', 'HuuLa', 'manage_options', 'options-general.php?page=huula', '', plugins_url('huula/assets/icon.png'));
   }
 
   public function plugin_settings_page()
@@ -102,6 +102,7 @@ EOF;
   {
     $site_id = get_option('huula_site_id');
 
+    // generate a new site id
     if (!$site_id) {
       $site_id = '';
       for ($i = 0; $i < 8; $i++) {
