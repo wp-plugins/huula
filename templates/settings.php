@@ -68,7 +68,7 @@
 
     <div class="row">
       <div class="row-inner">
-        <iframe src="http://dev.huu.la:9000/wordpress-manual?embed=true" class="wrapper-iframe"></iframe>
+        <iframe src="http://www.mirikle.com/wordpress-manual?embed=true" class="wrapper-iframe"></iframe>
       </div>
     </div>
 
