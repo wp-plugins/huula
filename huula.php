@@ -3,7 +3,7 @@
 Plugin Name: Huula
 Plugin URI: http://huu.la
 Description: Let there be guides!
-Version: 1.0
+Version: 3.0
 Author: Hu2la
 Author URI: http://www.huu.la
 */
