@@ -120,7 +120,7 @@ EOF;
     $site_id = get_option('huula_site_id');
 
     if ($site_id) {
-      echo('<script src="http://www.mirikle.com/api/v1/' . esc_attr($site_id) . '.js" async></script>');
+      echo('<script src="http://www.huu.la/api/v1/' . esc_attr($site_id) . '.js" async></script>');
     }
   }
 }

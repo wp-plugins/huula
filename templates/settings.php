@@ -63,7 +63,7 @@
     <form method="post" action="options.php">
       <?php settings_fields('huula'); ?>
       <div class="huula-instructions">
-        If you already have a site ID from a previous installation and you wish to retain all your settings then enter the site ID ( you can <a href="http://www.mirikle.com/me" target="_blank">find it here.</a> ) below otherwise you may generate a new site ID to perform a new installation.
+        If you already have a site ID from a previous installation and you wish to retain all your settings then enter the site ID ( you can <a href="http://www.huu.la/me" target="_blank">find it here.</a> ) below otherwise you may generate a new site ID to perform a new installation.
       </div>
       <table class="form-table">
         <?php do_settings_fields('huula', 'huula-settings') ?>
@@ -75,7 +75,7 @@
       <div id="https-content">
         <div class="huula-instructions">
           You can access the following document directly
-          <a href="http://www.mirikle.com/wordpress-manual" target="_blank">Here!</a>
+          <a href="http://www.huu.la/wordpress-manual" target="_blank">Here!</a>
         </div>
         <br/>
         <div>
@@ -89,7 +89,7 @@
         <br/>
         <div class="row">
           <div class="row-inner">
-            <iframe src="http://www.mirikle.com/wordpress-manual?embed=true" class="wrapper-iframe"></iframe>
+            <iframe src="http://www.huu.la/wordpress-manual?embed=true" class="wrapper-iframe"></iframe>
           </div>
         </div>
       </div>
